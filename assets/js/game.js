@@ -8,7 +8,7 @@
 window.alert("Welcome to Robot Gladiators!");
 
 var playerName = window.prompt("What is your robot's name?");
-var playerHealth = 10;
+var playerHealth = 100;
 var playerAttack = 10;
 var playerMoney = 10;
 
@@ -103,7 +103,7 @@ var startGame = function() {
     debugger;
 
     // Reset player Stats
-    playerHealth = 10;
+    playerHealth = 100;
     playerAttack = 10;
     playerMoney = 10;
    
